@@ -4,21 +4,21 @@ import Image from "next/image";
 export default function HowItWorksSteps() {
   const steps = [
     {
-      title: "Checkout",
+      title: "CHECKOUT",
       description:
-        "Quickly create your account and tailor the platform to your needs.",
+        "Ensuring accurate delivery details through secure OTP-based checkout verification.",
       image: "/EvocLabs-Next.js/assets/assets1-dark.jpeg",
     },
     {
-      title: "Automated Call",
+      title: "AI CALLING AGENT",
       description:
-        "Connect your existing tools for smooth workflow automation.",
+        "Automated voice calls in a natural human-like manner to confirm and validate orders.",
       image: "/EvocLabs-Next.js/assets/assets3-dark.jpeg",
     },
     {
-      title: "Whatsapp Automation & Discounts",
+      title: "WHATSAPP MESSAGING & DISCOUNTS",
       description:
-        "Gain real-time insights to enhance performance and decision making.",
+        "Converting abandoned carts into confirmed orders using AI-driven WhatsApp offers.",
       image: "/EvocLabs-Next.js/assets/assets2-dark.jpeg",
     },
   ];
@@ -46,18 +46,15 @@ export default function HowItWorksSteps() {
             </div>
 
             {/* Main Heading */}
-            <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-zinc-900">
-              Get started in <br />
-              <span className="text-[#3b38f2]">3 simple steps</span>
+            <h2 className="text-4xl md:text-6xl font-medium tracking-tighter text-zinc-900 leading-[1.1]">
+              How we <br />
+              <span className="text-[#3b38f2]">secure a order</span>
             </h2>
           </div>
 
           {/* Subheading text */}
           <div className="max-w-sm lg:pt-14 text-zinc-600 text-sm leading-relaxed">
-            <p>
-              Effortlessly set up, integrate, and optimize your workflow with
-              intelligent automation
-            </p>
+            <p></p>
           </div>
         </div>
 
