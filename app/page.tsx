@@ -6,6 +6,8 @@ import { LogoCloud } from "@/components/PartnersLogo";
 import HeroSection from "@/components/HeroSection";
 import HowItWorksSteps from "@/components/HowItWorksSteps";
 import TestimonalCard from "@/components/TestimonalCard";
+import FounderSection from "@/components/FounderSection";
+import FAQ from "@/components/FAQ";
 
 // Critical components - load with ssr true but wrap in dynamic for chunking
 const Navbar = dynamic(() => import("@/components/Navbar"), { ssr: true });
@@ -47,7 +49,9 @@ export default function Home() {
         <ClusterFeatures />
         <TestimonalCard />
         <HowItWorksSteps />
+        <FounderSection />
         <WhyChoosUs />
+        <FAQ />
         <HeroSection />
       </main>
       <div className="relative" style={{ zIndex: 10 }}>
