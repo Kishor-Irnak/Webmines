@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
       <div className="w-full max-w-7xl flex items-center justify-between">
         {/* Left: Logo */}
         <Link href="/" className="flex items-center">
-          <div className="w-8 h-[28px] relative">
+          <div className="w-12 h-12 relative">
             <Image
               src={logoImg}
               alt="Evoc Labs"
