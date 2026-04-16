@@ -56,10 +56,10 @@ export const metadata: Metadata = {
     images: ["https://i.postimg.cc/3wWLDB2q/Instagram-story-16.png"],
   },
   icons: {
-    icon: "/EvocLabs-Next.js/favicon.ico",
-    apple: "/EvocLabs-Next.js/apple-touch-icon.png",
+    icon: "/Webmines/favicon.ico",
+    apple: "/Webmines/apple-touch-icon.png",
   },
-  manifest: "/EvocLabs-Next.js/site.webmanifest",
+  manifest: "/Webmines/site.webmanifest",
 };
 
 export default function RootLayout({

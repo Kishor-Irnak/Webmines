@@ -7,24 +7,27 @@ export default function HowItWorksSteps() {
       title: "CHECKOUT",
       description:
         "Ensuring accurate delivery details through secure OTP-based checkout verification.",
-      image: "/EvocLabs-Next.js/assets/assets1-dark.jpeg",
+      image: "/Webmines/assets/assets1-dark.jpeg",
     },
     {
       title: "AI CALLING AGENT",
       description:
         "Automated voice calls in a natural human-like manner to confirm and validate orders.",
-      image: "/EvocLabs-Next.js/assets/assets3-dark.jpeg",
+      image: "/Webmines/assets/assets3-dark.jpeg",
     },
     {
       title: "WHATSAPP MESSAGING & DISCOUNTS",
       description:
         "Converting abandoned carts into confirmed orders using AI-driven WhatsApp offers.",
-      image: "/EvocLabs-Next.js/assets/assets2-dark.jpeg",
+      image: "/Webmines/assets/assets2-dark.jpeg",
     },
   ];
 
   return (
-    <section id="how-it-works" className="bg-white text-black py-20 px-6 md:px-12 lg:px-24 font-sans">
+    <section
+      id="how-it-works"
+      className="bg-white text-black py-20 px-6 md:px-12 lg:px-24 font-sans"
+    >
       <div className="max-w-7xl mx-auto rounded-2xl p-8 md:p-12">
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-16 gap-8">

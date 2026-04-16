@@ -16,7 +16,7 @@ const Hero: React.FC<HeroProps> = ({ onBookDemoClick }) => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/EvocLabs-Next.js/assets/hero-bg.jpg"
+          src="/Webmines/assets/hero-bg.jpg"
           alt="Hero Background"
           fill
           className="object-cover opacity-100"

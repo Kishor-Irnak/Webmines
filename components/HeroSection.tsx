@@ -6,7 +6,7 @@ const HeroSection = () => {
       {/* 1. Background Image Layer */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/EvocLabs-Next.js/assets/CTA.png"
+          src="/Webmines/assets/CTA.png"
           alt="Background"
           className="w-full h-full object-cover"
         />
