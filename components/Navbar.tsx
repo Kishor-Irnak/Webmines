@@ -84,12 +84,6 @@ const Navbar: React.FC = () => {
         {/* Right: Auth Actions */}
         <div className="flex items-center gap-6">
           <Link
-            href="/#login"
-            className="text-sm font-medium text-zinc-300 hover:text-white transition-colors hidden sm:block"
-          >
-            Log In
-          </Link>
-          <Link
             href="/book-demo"
             className="group bg-[#ffffff] text-zinc-900 text-sm font-medium pl-6 pr-5 py-2.5 rounded-full hidden sm:flex items-center gap-2 transition-all duration-300 hover:shadow-[0_0_20px_rgba(37,99,235,0.4)]"
           >
@@ -104,7 +98,7 @@ const Navbar: React.FC = () => {
 
           {/* Mobile Menu Toggle */}
           <button
-            className="md:hidden p-2 -mr-2 text-zinc-400"
+            className="md:hidden p-2 -mr-2 text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={20} /> : <Menu size={20} />}

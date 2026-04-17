@@ -3,8 +3,8 @@
 import React from "react";
 import { FaPaperPlane } from "react-icons/fa";
 import Link from "next/link";
-
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 interface HeroProps {
   onBookDemoClick?: () => void;
@@ -26,20 +26,27 @@ const Hero: React.FC<HeroProps> = ({ onBookDemoClick }) => {
       <div className="container flex flex-col text-center max-w-7xl mx-auto pt-46 px-6 pb-24 items-center relative">
         {/* Main Content */}
         <div className="relative z-10 flex flex-col items-center">
-          {/* Main Title */}
-          <h1 className="max-w-5xl sm:text-5xl md:text-7xl text-4xl tracking-tighter font-geist mx-auto text-[#f7f8f8] mb-6">
-            Stop Losing{" "}
-            <span
-              className="italic tracking-tight"
-              style={{
-                fontFamily: '"Playfair Display", serif',
-                color: "#fffff",
-              }}
+          {/* Main Title with Masked Slide Up Animation */}
+          <div className="overflow-hidden mb-6 pb-2">
+            <motion.h1
+              initial={{ y: "100%" }} // Starts pushed completely down
+              animate={{ y: 0 }} // Slides up into its natural position
+              transition={{ duration: 0.8, ease: [0.33, 1, 0.68, 1] }} // Custom cubic-bezier
+              className="max-w-5xl sm:text-5xl md:text-7xl text-4xl tracking-tighter font-geist mx-auto text-[#f7f8f8]"
             >
-              Customers,
-            </span>
-            <br /> Start Converting.
-          </h1>
+              Stop Losing{" "}
+              <span
+                className="italic tracking-tight"
+                style={{
+                  fontFamily: '"Playfair Display", serif',
+                  color: "#ffffff",
+                }}
+              >
+                Customers,
+              </span>
+              <br /> Start Converting.
+            </motion.h1>
+          </div>
 
           {/* Subtitle */}
           <p className="text-sm md:text-base text-[#f7f8f8c7] max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
