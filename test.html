@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Agency Hero Section</title>
+    <!-- Google Fonts: Inter for a clean, premium look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+            animation: {
+              "fade-in-up": "fadeInUp 1s ease-out forwards",
+              "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+            },
+            keyframes: {
+              fadeInUp: {
+                "0%": { opacity: "0", transform: "translateY(20px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" },
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-[#050505] text-white antialiased selection:bg-indigo-500/30">
+    <!-- Navigation Bar -->
+    <header class="absolute inset-x-0 top-0 z-50">
+      <nav
+        class="flex items-center justify-between p-6 lg:px-12 max-w-7xl mx-auto"
+        aria-label="Global"
+      >
+        <div class="flex lg:flex-1">
+          <a href="#" class="-m-1.5 p-1.5 flex items-center gap-2">
+            <!-- Abstract Logo SVG -->
+            <svg
+              class="h-8 w-8 text-indigo-500"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2L2 7L12 12L22 7L12 2Z"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M2 17L12 22L22 17"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M2 12L12 17L22 12"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span class="font-bold text-xl tracking-tight text-white"
+              >Aura<span class="text-indigo-500">.</span></span
+            >
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="flex lg:hidden">
+          <button
+            type="button"
+            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400 hover:text-white"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Desktop Links -->
+        <div class="hidden lg:flex lg:gap-x-10">
+          <a
+            href="#"
+            class="text-sm font-medium leading-6 text-gray-300 hover:text-white transition-colors duration-200"
+            >Services</a
+          >
+          <a
+            href="#"
+            class="text-sm font-medium leading-6 text-gray-300 hover:text-white transition-colors duration-200"
+            >Work</a
+          >
+          <a
+            href="#"
+            class="text-sm font-medium leading-6 text-gray-300 hover:text-white transition-colors duration-200"
+            >About</a
+          >
+          <a
+            href="#"
+            class="text-sm font-medium leading-6 text-gray-300 hover:text-white transition-colors duration-200"
+            >Pricing</a
+          >
+        </div>
+
+        <!-- Desktop CTA -->
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a
+            href="#"
+            class="inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white transition-all duration-200 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 hover:ring-1 hover:ring-white/20 backdrop-blur-md"
+          >
+            Book a Call
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main
+      class="relative isolate min-h-screen flex items-center justify-center overflow-hidden"
+    >
+      <!-- Ambient Background Glow Effects -->
+      <div
+        class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 pointer-events-none"
+        aria-hidden="true"
+      >
+        <div
+          class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#6366f1] to-[#a855f7] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem] animate-pulse-slow"
+          style="
+            clip-path: polygon(
+              74.1% 44.1%,
+              100% 61.6%,
+              97.5% 26.9%,
+              85.5% 0.1%,
+              80.7% 2%,
+              72.5% 32.5%,
+              60.2% 62.4%,
+              52.4% 68.1%,
+              47.5% 58.3%,
+              45.2% 34.5%,
+              27.5% 76.7%,
+              0.1% 64.9%,
+              17.9% 100%,
+              27.6% 76.8%,
+              76.1% 97.7%,
+              74.1% 44.1%
+            );
+          "
+        ></div>
+      </div>
+
+      <div
+        class="mx-auto max-w-7xl px-6 pb-24 pt-32 sm:pt-40 lg:px-8 lg:pt-48 relative z-10 w-full"
+      >
+        <div class="mx-auto max-w-4xl text-center">
+          <!-- Premium Badge -->
+          <div
+            class="mb-8 flex justify-center opacity-0 animate-fade-in-up"
+            style="animation-delay: 0.1s"
+          >
+            <div
+              class="relative rounded-full px-4 py-1.5 text-sm leading-6 text-gray-300 ring-1 ring-white/10 hover:ring-white/20 transition-all duration-300 bg-white/[0.03] backdrop-blur-md flex items-center gap-2 cursor-pointer group"
+            >
+              <span
+                class="flex h-2 w-2 rounded-full bg-emerald-500 group-hover:bg-emerald-400 transition-colors shadow-[0_0_8px_rgba(16,185,129,0.8)]"
+              ></span>
+              Performance-Based Agency Model
+              <svg
+                class="h-4 w-4 text-gray-500 group-hover:text-white group-hover:translate-x-0.5 transition-all"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Main Headline -->
+          <h1
+            class="text-5xl font-extrabold tracking-tight text-white sm:text-7xl lg:text-[5rem] leading-[1.1] opacity-0 animate-fade-in-up"
+            style="animation-delay: 0.2s"
+          >
+            Stop Losing Customers,<br class="hidden sm:block" />
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 drop-shadow-[0_0_30px_rgba(99,102,241,0.3)]"
+            >
+              Start Converting.
+            </span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p
+            class="mt-8 text-lg sm:text-xl leading-relaxed text-gray-400 max-w-2xl mx-auto opacity-0 animate-fade-in-up font-light"
+            style="animation-delay: 0.3s"
+          >
+            We build brands that sell themselves. You focus on growing your
+            business while we handle the strategy, design, and marketing.
+            <span
+              class="block mt-3 text-white font-medium bg-white/5 inline-block px-3 py-1 rounded-md border border-white/10"
+              >Pay only when you start making sales.</span
+            >
+          </p>
+
+          <!-- Call to Actions -->
+          <div
+            class="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 opacity-0 animate-fade-in-up"
+            style="animation-delay: 0.4s"
+          >
+            <!-- Primary Button -->
+            <a
+              href="#"
+              class="w-full sm:w-auto rounded-full bg-white px-8 py-4 text-sm font-bold text-gray-900 shadow-lg shadow-white/10 hover:bg-gray-100 hover:scale-105 transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >
+              Claim Your Free Strategy
+            </a>
+
+            <!-- Secondary Button -->
+            <a
+              href="#"
+              class="w-full sm:w-auto rounded-full px-8 py-4 text-sm font-semibold text-white group flex items-center justify-center gap-2 border border-transparent hover:border-white/10 hover:bg-white/5 transition-all duration-300"
+            >
+              View our work
+              <svg
+                class="h-4 w-4 group-hover:translate-x-1 transition-transform"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Trust Indicators / Social Proof -->
+          <div
+            class="mt-20 pt-10 border-t border-white/5 opacity-0 animate-fade-in-up"
+            style="animation-delay: 0.6s"
+          >
+            <p
+              class="text-xs font-semibold tracking-wider text-gray-500 uppercase mb-6"
+            >
+              Trusted by fast-growing companies
+            </p>
+            <div
+              class="flex flex-wrap justify-center gap-x-12 gap-y-8 items-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+            >
+              <!-- Mock Logos (Using text for pure HTML, normally SVGs) -->
+              <span class="text-xl font-bold font-serif">Acme Corp</span>
+              <span class="text-xl font-bold tracking-tighter"
+                >Global<span class="text-indigo-500">Tech</span></span
+              >
+              <span class="text-xl font-black italic">Vanguard.</span>
+              <span class="text-xl font-medium tracking-widest">NEXUS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Ambient Glow Effect -->
+      <div
+        class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)] pointer-events-none"
+        aria-hidden="true"
+      >
+        <div
+          class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ec4899] to-[#6366f1] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem] animate-pulse-slow"
+          style="
+            clip-path: polygon(
+              74.1% 44.1%,
+              100% 61.6%,
+              97.5% 26.9%,
+              85.5% 0.1%,
+              80.7% 2%,
+              72.5% 32.5%,
+              60.2% 62.4%,
+              52.4% 68.1%,
+              47.5% 58.3%,
+              45.2% 34.5%,
+              27.5% 76.7%,
+              0.1% 64.9%,
+              17.9% 100%,
+              27.6% 76.8%,
+              76.1% 97.7%,
+              74.1% 44.1%
+            );
+          "
+        ></div>
+      </div>
+
+      <!-- Grid pattern overlay for texture -->
+      <div
+        class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wMykiLz48L3N2Zz4=')] [mask-image:linear-gradient(to_bottom,white,transparent)] -z-20 pointer-events-none"
+      ></div>
+    </main>
+  </body>
+</html>

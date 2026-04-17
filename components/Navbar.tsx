@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
             href="/book-demo"
             className="group bg-[#ff4646] text-white text-sm font-medium pl-6 pr-5 py-2.5 rounded-full hidden sm:flex items-center gap-2 transition-all duration-300 hover:shadow-[0_0_20px_rgba(37,99,235,0.4)]"
           >
-            <span>Book a Demo</span>
+            <span>Get Started</span>
             <div className="transition-all duration-500 ease-out group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:scale-110 group-hover:rotate-12">
               <FaPaperPlane
                 size={12}
@@ -139,7 +139,7 @@ const Navbar: React.FC = () => {
                 onClick={() => setIsMenuOpen(false)}
                 className="group bg-blue-600 text-white flex items-center justify-center gap-3 py-4 rounded-full font-semibold mt-2 transition-all"
               >
-                <span>Book a Demo</span>
+                <span>Get Started</span>
                 <div className="transition-all duration-500 ease-out group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:scale-110 group-hover:rotate-12">
                   <FaPaperPlane
                     size={16}

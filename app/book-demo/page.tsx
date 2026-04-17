@@ -105,7 +105,7 @@ export default function App() {
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end mb-16 gap-8">
           <h1 className="text-5xl sm:text-6xl lg:text-[4.5rem] font-medium tracking-tight leading-[1.1] max-w-2xl">
-            Book a Demo
+            Get Started
           </h1>
           <p className="text-neutral-400 text-sm md:text-base max-w-xs lg:text-right leading-relaxed mb-2">
             Tell us when you'd like to meet and we'll confirm availability
@@ -137,8 +137,8 @@ export default function App() {
                 <h2 className="text-2xl font-semibold">Request Received!</h2>
                 <p className="text-neutral-400">
                   Thank you, {formData.name}. Our team will call you at{" "}
-                  <span className="text-white">+91 {formData.phone}</span> shortly to
-                  schedule your customized demo.
+                  <span className="text-white">+91 {formData.phone}</span>{" "}
+                  shortly to schedule your customized demo.
                 </p>
                 <div className="flex flex-col items-center gap-3 pt-6">
                   <Link
@@ -256,7 +256,8 @@ export default function App() {
                 {/* Revenue Dropdown */}
                 <div className="space-y-2 flex flex-col">
                   <label className="text-xs font-semibold text-neutral-400 uppercase tracking-wider ml-1">
-                    Monthly revenue range <span className="text-red-500">*</span>
+                    Monthly revenue range{" "}
+                    <span className="text-red-500">*</span>
                   </label>
                   <div className="relative">
                     <select

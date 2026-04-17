@@ -7,6 +7,7 @@ import HowItWorksSteps from "@/components/HowItWorksSteps";
 import TestimonalCard from "@/components/TestimonalCard";
 import FounderSection from "@/components/FounderSection";
 import FAQ from "@/components/FAQ";
+import MasterStrategy from "../components/Strategy";
 
 // Critical components - load with ssr true but wrap in dynamic for chunking
 const Navbar = dynamic(() => import("@/components/Navbar"), { ssr: true });
@@ -43,6 +44,7 @@ export default function Home() {
         <Hero />
         <div className="relative z-10 bg-[#08070b]">
           <ProblemStatement />
+          <MasterStrategy />
           <StatLabel />
           <RealAdvisor />
           <ClusterFeatures />

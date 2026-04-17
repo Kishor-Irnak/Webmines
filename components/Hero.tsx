@@ -51,7 +51,7 @@ const Hero: React.FC<HeroProps> = ({ onBookDemoClick }) => {
               href="/book-demo"
               className="group inline-flex items-center gap-2 transition-all duration-300 text-sm font-semibold text-black bg-white rounded-full pt-3.5 px-6 pb-3.5 shadow-lg hover:shadow-white/10"
             >
-              <span>Book a Free Demo</span>
+              <span>Get Started</span>
               <div className="transition-all duration-500 ease-out group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:scale-110 group-hover:rotate-12">
                 <FaPaperPlane
                   size={14}
@@ -70,7 +70,7 @@ const Hero: React.FC<HeroProps> = ({ onBookDemoClick }) => {
                   backgroundImage: `url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='28' ry='28' stroke='white' stroke-width='1.5' stroke-dasharray='6 6' stroke-dashoffset='0'/%3e%3c/svg%3e")`,
                 }}
               />
-              <span className="relative z-10">See How It Works</span>
+              <span className="relative z-10">Portfolio</span>
             </Link>
           </div>
 

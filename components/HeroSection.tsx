@@ -54,13 +54,13 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Right Block: Book a Demo */}
+        {/* Right Block: Get Started */}
         <div className="flex-1 p-8 md:p-12 flex flex-col justify-between min-h-[250px] bg-[#0004ff] text-white">
           <p className="text-xs uppercase tracking-widest mb-8">
             See it in Action
           </p>
           <button className="text-3xl md:text-5xl font-medium border-b-2 border-white self-start pb-1 hover:opacity-70 transition-opacity">
-            Book a Demo
+            Get Started
           </button>
         </div>
       </div>
