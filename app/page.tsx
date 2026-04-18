@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import HeroSection from "@/components/HeroSection";
 
 import MasterStrategy from "../components/Strategy";
+import Work from "../components/Work";
 
 // Critical components - load with ssr true but wrap in dynamic for chunking
 const Navbar = dynamic(() => import("@/components/Navbar"), { ssr: true });
@@ -27,7 +28,9 @@ export default function Home() {
       <main className="relative" style={{ zIndex: 10 }}>
         <Hero />
         <div className="relative z-10 bg-[#08070b]">
+          <Work />
           <ProblemStatement />
+
           <MasterStrategy />
           <HeroSection />
         </div>
