@@ -136,7 +136,7 @@ export default function Work() {
             </div>
             <div className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&q=80&w=1200&ar=16:10"
+                src="https://i.pinimg.com/736x/5d/e0/93/5de093ef89b1ccb4d72a41b9a88120e5.jpg"
                 className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700 group-hover:opacity-80"
                 alt="Minimalist E-Commerce Interface Design"
               />
@@ -175,7 +175,7 @@ export default function Work() {
             </div>
             <div className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200&ar=16:10"
+                src="https://i.pinimg.com/1200x/d3/61/06/d361061b6e68a7da5c8d38f1f8133131.jpg"
                 className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700 group-hover:opacity-80"
                 alt="SaaS Analytics Dashboard UI"
               />
@@ -214,7 +214,7 @@ export default function Work() {
             </div>
             <div className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1200&ar=16:10"
+                src="https://i.pinimg.com/736x/ce/8e/1f/ce8e1f60a97cab3f9137677e66edb679.jpg"
                 className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700 group-hover:opacity-80"
                 alt="Modern Corporate Web Design"
               />
@@ -253,7 +253,7 @@ export default function Work() {
             </div>
             <div className="absolute inset-0 w-full h-full">
               <img
-                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1200&ar=16:10"
+                src="https://i.pinimg.com/1200x/5f/26/81/5f26813372e8df83a35831389b757450.jpg"
                 className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700 group-hover:opacity-80"
                 alt="Creative Web Development Code"
               />

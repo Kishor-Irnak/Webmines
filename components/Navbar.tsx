@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-center transition-all duration-500 ${
+      className={`fixed top-0 left-0 right-0 z-50 px-6 py-2 flex justify-center transition-all duration-500 ${
         isScrolled
           ? "bg-[#08070b]/40 backdrop-blur-2xl backdrop-saturate-150 border-b border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.36)]"
           : "bg-transparent"
@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
       <div className="w-full max-w-7xl flex items-center justify-between">
         {/* Left: Logo */}
         <Link href="/" className="flex items-center">
-          <div className="w-12 h-12 relative">
+          <div className="w-10 h-10 relative">
             <Image
               src={logoImg}
               alt="Webmines"
@@ -85,7 +85,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center gap-6">
           <Link
             href="/book-demo"
-            className="group bg-[#ffffff] text-zinc-900 text-sm font-medium pl-6 pr-5 py-2.5 rounded-full hidden sm:flex items-center gap-2 transition-all duration-300 hover:shadow-[0_0_20px_rgba(37,99,235,0.4)]"
+            className="group bg-[#ffffff] text-zinc-900 text-sm font-medium pl-6 pr-5 py-2 rounded-full hidden sm:flex items-center gap-2 transition-all duration-300 hover:shadow-[0_0_20px_rgba(37,99,235,0.4)]"
           >
             <span>Get Started</span>
             <div className="transition-all duration-500 ease-out group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:scale-110 group-hover:rotate-12">
@@ -113,7 +113,7 @@ const Navbar: React.FC = () => {
             initial={{ opacity: 0, scale: 0.95, y: -10 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: -10 }}
-            className="absolute top-20 left-4 right-4 bg-zinc-900 border border-white/10 rounded-2xl p-6 md:hidden z-40 shadow-2xl"
+            className="absolute top-16 left-4 right-4 bg-zinc-900 border border-white/10 rounded-2xl p-6 md:hidden z-40 shadow-2xl"
           >
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
