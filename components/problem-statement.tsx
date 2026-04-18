@@ -1,10 +1,10 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 export default function ProblemStatement() {
   // 1. Define animation variants for the container (staggers the children)
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -15,7 +15,7 @@ export default function ProblemStatement() {
   };
 
   // 2. Define animation variants for each individual word
-  const wordVariants = {
+  const wordVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
