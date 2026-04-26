@@ -141,7 +141,7 @@ export default function MasterStrategy() {
 
   return (
     <div
-      className="relative w-screen h-screen overflow-hidden antialiased text-[#1A1A1A] selection:bg-black selection:text-white"
+      className="relative w-screen h-screen overflow-hidden antialiased text-[#1A1A1A] selection:bg-[#1A1A1A] selection:text-white"
       style={{
         backgroundColor: "#F2EBE1",
         fontFamily: "'Space Mono', monospace",
@@ -163,23 +163,23 @@ export default function MasterStrategy() {
 
       {/* Grid Lines Container - Hidden on Mobile for clean view */}
       <div className="absolute inset-0 z-0 pointer-events-none hidden md:flex justify-between px-[5vw]">
-        <div className="relative w-px h-full bg-black/10">
-          <span className="absolute bottom-[8vh] left-4 text-[10px] uppercase tracking-widest text-black/30 font-bold">
+        <div className="relative w-px h-full bg-[#1A1A1A]/10">
+          <span className="absolute bottom-[8vh] left-4 text-[10px] uppercase tracking-widest text-[#1A1A1A]/30 font-bold">
             Phase 1
           </span>
         </div>
-        <div className="relative w-px h-full bg-black/10">
-          <span className="absolute bottom-[8vh] left-4 text-[10px] uppercase tracking-widest text-black/30 font-bold">
+        <div className="relative w-px h-full bg-[#1A1A1A]/10">
+          <span className="absolute bottom-[8vh] left-4 text-[10px] uppercase tracking-widest text-[#1A1A1A]/30 font-bold">
             Phase 2
           </span>
         </div>
-        <div className="relative w-px h-full bg-black/10">
-          <span className="absolute bottom-[8vh] left-4 text-[10px] uppercase tracking-widest text-black/30 font-bold">
+        <div className="relative w-px h-full bg-[#1A1A1A]/10">
+          <span className="absolute bottom-[8vh] left-4 text-[10px] uppercase tracking-widest text-[#1A1A1A]/30 font-bold">
             Phase 3
           </span>
         </div>
-        <div className="relative w-px h-full bg-black/10">
-          <span className="absolute bottom-[8vh] left-4 text-[10px] uppercase tracking-widest text-black/30 font-bold">
+        <div className="relative w-px h-full bg-[#1A1A1A]/10">
+          <span className="absolute bottom-[8vh] left-4 text-[10px] uppercase tracking-widest text-[#1A1A1A]/30 font-bold">
             Phase 4
           </span>
         </div>
@@ -201,7 +201,7 @@ export default function MasterStrategy() {
             </span>
             <div className="flex flex-col md:flex-row md:gap-2">
               <span>Built for conversions.</span>
-              <span className="text-black/40 font-normal">
+              <span className="text-[#1A1A1A]/40 font-normal">
                 Designed to scale.
               </span>
             </div>

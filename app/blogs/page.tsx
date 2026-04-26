@@ -31,9 +31,9 @@ export default function BlogGrid() {
   // Full Post View
   if (selectedPost) {
     return (
-      <div className="min-h-screen bg-black text-white font-sans selection:bg-white selection:text-black">
+      <div className="min-h-screen bg-[#1A1A1A] text-white font-sans selection:bg-white selection:text-[#1A1A1A]">
         {/* Navigation Bar for Full Post */}
-        <div className="sticky top-0 z-50 bg-black/80 backdrop-blur-md border-b border-white/10 px-6 py-4 flex items-center justify-between">
+        <div className="sticky top-0 z-50 bg-[#1A1A1A]/80 backdrop-blur-md border-b border-white/10 px-6 py-4 flex items-center justify-between">
           <button
             onClick={() => setSelectedPost(null)}
             className="flex items-center gap-2 text-sm text-zinc-400 hover:text-white transition-colors group"
@@ -113,7 +113,7 @@ export default function BlogGrid() {
 
   // Grid View
   return (
-    <div className="min-h-screen bg-black text-white font-sans selection:bg-white selection:text-black relative">
+    <div className="min-h-screen bg-[#1A1A1A] text-white font-sans selection:bg-white selection:text-[#1A1A1A] relative">
       {/* Top Left Navigation - Return Home */}
       <Link
         href="/"
@@ -159,7 +159,7 @@ export default function BlogGrid() {
               onClick={() => setActiveCategory(category)}
               className={`px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300 ${
                 activeCategory === category
-                  ? "bg-white text-black shadow-[0_0_20px_rgba(255,255,255,0.15)]"
+                  ? "bg-white text-[#1A1A1A] shadow-[0_0_20px_rgba(255,255,255,0.15)]"
                   : "bg-transparent text-zinc-400 hover:text-white hover:bg-white/5"
               }`}
             >

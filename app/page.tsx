@@ -20,6 +20,9 @@ const ProblemStatement = dynamic(
 const FooterComponent = dynamic(() => import("@/components/Footer"), {
   ssr: true,
 });
+const ContactSection = dynamic(() => import("@/components/ContactSection"), {
+  ssr: true,
+});
 
 export default function Home() {
   return (
@@ -36,6 +39,7 @@ export default function Home() {
         </div>
       </main>
       <div className="relative" style={{ zIndex: 10 }}>
+        <ContactSection />
         <FooterComponent />
       </div>
     </div>

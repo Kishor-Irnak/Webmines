@@ -74,7 +74,7 @@ export default function Work() {
       />
 
       {/* Meaningful Background Decor (Replacing the "02") */}
-      <div className="absolute top-8 left-2 md:left-8 z-0 opacity-5 font-bricolage font-bold text-[14rem] md:text-[18rem] leading-none text-black pointer-events-none select-none tracking-tighter">
+      <div className="absolute top-8 left-2 md:left-8 z-0 opacity-5 font-bricolage font-bold text-[14rem] md:text-[18rem] leading-none text-[#1A1A1A] pointer-events-none select-none tracking-tighter">
         &lt;/&gt;
       </div>
 
@@ -107,7 +107,7 @@ export default function Work() {
           </div>
 
           <div className="flex gap-8 items-baseline border-b border-neutral-200 pb-2 flex-wrap">
-            <button className="text-2xl md:text-3xl text-neutral-900 font-bricolage font-light border-b-2 border-black pb-1">
+            <button className="text-2xl md:text-3xl text-neutral-900 font-bricolage font-light border-b-2 border-[#1A1A1A] pb-1">
               All Work
             </button>
             <button className="text-2xl md:text-3xl text-neutral-400 hover:text-neutral-700 transition-colors font-bricolage font-light pb-1">

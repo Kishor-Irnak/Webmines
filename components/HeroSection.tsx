@@ -107,7 +107,7 @@ export default function HeroSection() {
   return (
     <div
       ref={containerRef}
-      className="relative min-h-screen text-white selection:bg-white selection:text-black overflow-hidden font-serif"
+      className="relative min-h-screen text-white selection:bg-white selection:text-[#1A1A1A] overflow-hidden font-serif"
       style={
         {
           backgroundColor: "#1a1c1a",

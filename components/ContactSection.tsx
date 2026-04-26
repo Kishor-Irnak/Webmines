@@ -1,34 +1,30 @@
-import Link from "next/link";
-import { ArrowLeft, ArrowUpRight, ChevronDown } from "lucide-react";
+"use client";
 
-export default function ContactPage() {
+import React from "react";
+import { ArrowUpRight, ChevronDown, ArrowLeft } from "lucide-react";
+import Link from "next/link";
+
+export default function ContactFormSection() {
   return (
-    <div className="min-h-screen bg-white text-[#1A1A1A] px-4 py-12 md:px-8 lg:px-16 xl:px-24 font-sans selection:bg-[#1A1A1A] selection:text-white">
+    <section id="contact" className="bg-[#F2EBE1] text-[#1A1A1A] px-4 py-20 md:px-8 lg:px-16 xl:px-24 font-sans selection:bg-[#1A1A1A] selection:text-white">
       <div className="max-w-[1400px] mx-auto">
         {/* Header Section */}
         <div className="mb-12 md:mb-16 flex flex-col lg:flex-row lg:items-end justify-between gap-8 lg:gap-12">
           <div>
-            <Link
-              href="/"
-              className="inline-flex items-center gap-2 border border-gray-200 rounded-full px-4 py-1.5 text-xs font-semibold text-[#1A1A1A] mb-8 hover:bg-gray-50 transition-colors"
-            >
-              <ArrowLeft className="w-3.5 h-3.5" />
-              Back to Home
-            </Link>
-            <h1 className="text-6xl md:text-7xl lg:text-[5.5rem] font-medium tracking-tighter leading-none">
+            <h2 className="text-6xl md:text-7xl lg:text-[5.5rem] font-medium tracking-tighter leading-none mb-6">
               Contact Us
-            </h1>
+            </h2>
+            <p className="text-gray-600 text-lg lg:text-xl max-w-sm leading-relaxed lg:pb-2">
+              Tell us about your project requirements and we'll get back to you
+              with a proposal within 24 hours.
+            </p>
           </div>
-          <p className="text-gray-600 text-lg lg:text-xl max-w-sm leading-relaxed lg:pb-2">
-            Tell us about your project requirements and we'll get back to you
-            with a proposal within 24 hours.
-          </p>
         </div>
 
         {/* Content Section */}
         <div className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-6">
           {/* Form Container */}
-          <div className="bg-[#FCFCFC] rounded-[2.5rem] p-6 sm:p-10 md:p-12 shadow-sm border border-gray-50/50">
+          <div className="bg-[#FCFCFC] rounded-[2.5rem] p-6 sm:p-10 md:p-12 shadow-sm border border-gray-100">
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-6">
                 {/* Name */}
@@ -130,7 +126,7 @@ export default function ContactPage() {
           </div>
 
           {/* Image Container */}
-          <div className="relative rounded-[2.5rem] overflow-hidden h-[400px] lg:h-auto min-h-[500px] shadow-sm">
+          <div className="relative rounded-[2.5rem] overflow-hidden h-[400px] lg:h-auto min-h-[500px] shadow-sm hidden lg:block">
             <img
               src="https://i.postimg.cc/vZG04GJW/web-image.jpg"
               alt="Web development coding setup"
@@ -145,6 +141,6 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

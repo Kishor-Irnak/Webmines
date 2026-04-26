@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-24">
           {/* Brand/CTA Section */}
           <div className="md:col-span-1">
-            <p className="text-xs font-bold uppercase tracking-widest mb-6 text-black/50">
+            <p className="text-xs font-bold uppercase tracking-widest mb-6 text-[#1A1A1A]/50">
               The Agency
             </p>
             <p className="text-3xl font-sans mb-6 leading-tight tracking-tight text-[#1A1A1A]">
@@ -36,7 +36,7 @@ const Footer = () => {
 
           {/* Contact Section */}
           <div className="md:col-span-1">
-            <p className="text-xs font-bold uppercase tracking-widest mb-6 text-black/50">
+            <p className="text-xs font-bold uppercase tracking-widest mb-6 text-[#1A1A1A]/50">
               Contact
             </p>
             <a
@@ -45,10 +45,10 @@ const Footer = () => {
             >
               webmines.in@gmail.com
             </a>
-            <p className="text-sm text-black/70 mb-6">
+            <p className="text-sm text-[#1A1A1A]/70 mb-6">
               +55 11 99999-9999
             </p>
-            <p className="text-[10px] text-black/50 leading-relaxed">
+            <p className="text-[10px] text-[#1A1A1A]/50 leading-relaxed">
               São Paulo, SP
               <br />
               Brazil
@@ -61,7 +61,7 @@ const Footer = () => {
           <div className="md:col-span-2 flex flex-col md:flex-row justify-end gap-12 md:gap-24 text-sm font-medium">
             {/* Explore Links */}
             <div className="flex flex-col gap-4">
-              <span className="text-xs font-bold uppercase tracking-widest text-black/50 mb-2">
+              <span className="text-xs font-bold uppercase tracking-widest text-[#1A1A1A]/50 mb-2">
                 Explore
               </span>
               {exploreLinks.map((link) => (
@@ -77,7 +77,7 @@ const Footer = () => {
 
             {/* Social Links */}
             <div className="flex flex-col gap-4">
-              <span className="text-xs font-bold uppercase tracking-widest text-black/50 mb-2">
+              <span className="text-xs font-bold uppercase tracking-widest text-[#1A1A1A]/50 mb-2">
                 Social
               </span>
               {socialLinks.map((social) => (
@@ -97,8 +97,8 @@ const Footer = () => {
       </div>
 
       {/* Decorative Big Text Section */}
-      <div className="w-full text-center leading-none overflow-hidden border-t border-black/10">
-        <h1 className="text-[18vw] font-bold leading-[0.75] font-sans text-black/5 tracking-tighter select-none pointer-events-none -mb-[0.05em] pt-4">
+      <div className="w-full text-center leading-none overflow-hidden border-t border-[#1A1A1A]/10">
+        <h1 className="text-[18vw] font-bold leading-[0.75] font-sans text-[#1A1A1A]/5 tracking-tighter select-none pointer-events-none -mb-[0.05em] pt-4">
           Webmines
         </h1>
       </div>
